@@ -207,6 +207,16 @@ def main():
             "license": {"data": "CC BY-NC 4.0", "code": "Apache-2.0", "methodology": "CC BY 4.0"}}
     with open(os.path.join(OUT_DIR, "meta.json"), "w") as f: f.write(json.dumps(meta, indent=2))
 
+    # Agentic/Typical Wh per USD for tools that turn session cost into energy (CC BY 4.0, see data/LICENSE)
+    with open(os.path.join(OUT_DIR, "wh-per-usd.csv"), "w", newline="") as f:
+        w = csv.writer(f, lineterminator="\n")
+        w.writerow(["model_name", "provider", "wh_per_usd", "wh_per_usd_sd", "estimation_basis", "engine"])
+        for r in sorted(rows, key=lambda r: r["model_name"]):
+            if (r["use_case"], r["tier"]) != ("Agentic", "Typical"): continue
+            wpu, sd, cost = num(r["energy_wh_per_usd"]), num(r["energy_wh_sd"]), num(r["cost_usd"])
+            if not (wpu and sd is not None and cost): continue
+            w.writerow([r["model_name"], r["provider"], f"{wpu:.4g}", f"{sd / cost:.4g}", r["estimation_basis"], ENGINE])
+
     print(f"OK — {len(ml)} models, {nwl} workloads, {len(rows)} rows, "
           f"{meta['counts']['verbosity_adjusted']} with verbosity adjustment")
     print(f"   sha256 {meta['sha256'][:16]}…")

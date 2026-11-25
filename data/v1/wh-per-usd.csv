@@ -1,0 +1,36 @@
+model_name,provider,wh_per_usd,wh_per_usd_sd,estimation_basis,engine
+Claude Fable 5,Anthropic,3.91,0.6765,CLEER proxy estimation,CLEER-Text-0926
+Claude Haiku 3.5,Anthropic,5.31,1.245,CLEER proxy estimation,CLEER-Text-0926
+Claude Haiku 4.5,Anthropic,2.72,0.5571,CLEER proxy estimation,CLEER-Text-0926
+Claude Opus 3,Anthropic,1.54,0.4341,CLEER proxy estimation,CLEER-Text-0926
+Claude Opus 4,Anthropic,1.25,0.2599,CLEER proxy estimation,CLEER-Text-0926
+Claude Opus 4.1,Anthropic,1.3,0.2669,CLEER proxy estimation,CLEER-Text-0926
+Claude Opus 4.5,Anthropic,4.06,0.7466,CLEER proxy estimation,CLEER-Text-0926
+Claude Opus 4.6,Anthropic,3.81,0.7311,CLEER proxy estimation,CLEER-Text-0926
+Claude Opus 4.7,Anthropic,4.38,0.9004,CLEER proxy estimation,CLEER-Text-0926
+Claude Opus 4.8,Anthropic,5.49,0.983,CLEER proxy estimation,CLEER-Text-0926
+Claude Opus 5,Anthropic,4.43,0.8607,CLEER proxy estimation,CLEER-Text-0926
+Claude Sonnet 4,Anthropic,4.46,0.7867,CLEER proxy estimation,CLEER-Text-0926
+Claude Sonnet 4.5,Anthropic,5.85,0.9015,CLEER proxy estimation,CLEER-Text-0926
+Claude Sonnet 4.6,Anthropic,3.49,0.6999,CLEER proxy estimation,CLEER-Text-0926
+Claude Sonnet 5,Anthropic,8.14,1.674,CLEER proxy estimation,CLEER-Text-0926
+GPT-4.1,OpenAI,4.54,0.7383,CLEER proxy estimation,CLEER-Text-0926
+GPT-4.1 mini,OpenAI,2.33,0.4806,CLEER proxy estimation,CLEER-Text-0926
+GPT-4.1 nano,OpenAI,7.76,1.325,CLEER proxy estimation,CLEER-Text-0926
+GPT-4o,OpenAI,3.76,0.7783,CLEER proxy estimation,CLEER-Text-0926
+GPT-5,OpenAI,12.75,2.097,CLEER proxy estimation,CLEER-Text-0926
+GPT-5 mini,OpenAI,7.22,1.254,CLEER proxy estimation,CLEER-Text-0926
+GPT-5 nano,OpenAI,20.83,3.503,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.1,OpenAI,16.32,3.109,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.2,OpenAI,13.08,2.097,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.3,OpenAI,9.24,1.646,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.4,OpenAI,9.58,1.63,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.4 mini,OpenAI,2.05,0.3902,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.4 nano,OpenAI,6.05,1.063,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.5,OpenAI,5.08,0.9113,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.6 Luna,OpenAI,21.7,3.549,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.6 Sol,OpenAI,4.21,0.947,CLEER proxy estimation,CLEER-Text-0926
+GPT-5.6 Terra,OpenAI,4.13,0.5962,CLEER proxy estimation,CLEER-Text-0926
+Gemini 3.5 Flash-Lite,Google,11.8,9.096,CLEER TPU calibration,CLEER-Text-0926
+Gemini 3.6 Flash,Google,10.08,7.856,CLEER TPU calibration,CLEER-Text-0926
+Gemini 3.7 Flash,Google,11.54,8.871,CLEER TPU calibration,CLEER-Text-0926

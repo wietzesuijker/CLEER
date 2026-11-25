@@ -13,6 +13,12 @@ whether changes were made.
 Commercial use is not permitted without separate written permission from
 Sustainable AI Group.
 
+Exception: v1/wh-per-usd.csv (energy per US dollar of model usage) is
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0), https://creativecommons.org/licenses/by/4.0/. Credit it as
+"CLEER, Sustainable AI Group" with a link to
+https://cleerdash.sustainableaigroup.com/.
+
 License deed:
 https://creativecommons.org/licenses/by-nc/4.0/
 
